@@ -39,6 +39,7 @@ const Dashboard = () => {
                 <button
                   onClick={() => handleCompleteCourse(course.id)}
                   disabled={course.completed}
+                  className="mark"
                 >
                   {course.completed ? 'Completed' : 'Mark as Completed'}
                 </button>

@@ -1,4 +1,4 @@
-// src/courseinfo/courseinfo.js
+
 export const productRows = [
   {
     id: 1,
@@ -413,6 +413,326 @@ export const productRows = [
     Rating: "4.8",
     Skills: "Data Analysis, SQL, R Programming, Data Visualization",
     progress: 70, // Example progress
+    syllabus: [
+      {
+        week: 1,
+        topic: 'Introduction to Digital Marketing',
+        content: 'Overview of digital marketing, tools, and strategies.'
+      },
+      {
+        week: 2,
+        topic: 'SEO Basics',
+        content: 'Learning the basics of search engine optimization.'
+      },
+      // Additional weeks and topics...
+    ],
+    students: [
+      {
+        id: 113,
+        name: 'Mia Young',
+        email: 'mia@example.com',
+      },
+      {
+        id: 114,
+        name: 'Noah King',
+        email: 'noah@example.com',
+      },
+      // Additional enrolled students...
+    ]
+  },
+  {
+    id: 12,
+    Course: "Project Management",
+    Instructor: "Ava Thompson",
+    Description: "Master the art of project management with this course.",
+    EnrollmentStatus: "In Progress",
+    Duration: "3 months",
+    Schedule: "Mon, Wed - 11:00 AM to 1:00 PM",
+    Location: "Online",
+    Prerequisites: "None",
+    Rating: "4.6",
+    Skills: "Project Management, Agile, Scrum, Risk Management",
+    progress: 25, // Example progress
+    syllabus: [
+      {
+        week: 1,
+        topic: 'Introduction to Digital Marketing',
+        content: 'Overview of digital marketing, tools, and strategies.'
+      },
+      {
+        week: 2,
+        topic: 'SEO Basics',
+        content: 'Learning the basics of search engine optimization.'
+      },
+      // Additional weeks and topics...
+    ],
+    students: [
+      {
+        id: 113,
+        name: 'Mia Young',
+        email: 'mia@example.com',
+      },
+      {
+        id: 114,
+        name: 'Noah King',
+        email: 'noah@example.com',
+      },
+      // Additional enrolled students...
+    ]
+  },
+  {
+    id: 13,
+    Course: "Project Management",
+    Instructor: "Ava Thompson",
+    Description: "Master the art of project management with this course.",
+    EnrollmentStatus: "In Progress",
+    Duration: "3 months",
+    Schedule: "Mon, Wed - 11:00 AM to 1:00 PM",
+    Location: "Online",
+    Prerequisites: "None",
+    Rating: "4.6",
+    Skills: "Project Management, Agile, Scrum, Risk Management",
+    progress: 25, // Example progress
+    syllabus: [
+      {
+        week: 1,
+        topic: 'Introduction to Digital Marketing',
+        content: 'Overview of digital marketing, tools, and strategies.'
+      },
+      {
+        week: 2,
+        topic: 'SEO Basics',
+        content: 'Learning the basics of search engine optimization.'
+      },
+      // Additional weeks and topics...
+    ],
+    students: [
+      {
+        id: 113,
+        name: 'Mia Young',
+        email: 'mia@example.com',
+      },
+      {
+        id: 114,
+        name: 'Noah King',
+        email: 'noah@example.com',
+      },
+      // Additional enrolled students...
+    ]
+  },
+  {
+    id: 14,
+    Course: "Project Management",
+    Instructor: "Ava Thompson",
+    Description: "Master the art of project management with this course.",
+    EnrollmentStatus: "In Progress",
+    Duration: "3 months",
+    Schedule: "Mon, Wed - 11:00 AM to 1:00 PM",
+    Location: "Online",
+    Prerequisites: "None",
+    Rating: "4.6",
+    Skills: "Project Management, Agile, Scrum, Risk Management",
+    progress: 25, // Example progress
+    syllabus: [
+      {
+        week: 1,
+        topic: 'Introduction to Digital Marketing',
+        content: 'Overview of digital marketing, tools, and strategies.'
+      },
+      {
+        week: 2,
+        topic: 'SEO Basics',
+        content: 'Learning the basics of search engine optimization.'
+      },
+      // Additional weeks and topics...
+    ],
+    students: [
+      {
+        id: 113,
+        name: 'Mia Young',
+        email: 'mia@example.com',
+      },
+      {
+        id: 114,
+        name: 'Noah King',
+        email: 'noah@example.com',
+      },
+      // Additional enrolled students...
+    ]
+  },
+  {
+    id: 15,
+    Course: "Project Management",
+    Instructor: "Ava Thompson",
+    Description: "Master the art of project management with this course.",
+    EnrollmentStatus: "In Progress",
+    Duration: "3 months",
+    Schedule: "Mon, Wed - 11:00 AM to 1:00 PM",
+    Location: "Online",
+    Prerequisites: "None",
+    Rating: "4.6",
+    Skills: "Project Management, Agile, Scrum, Risk Management",
+    progress: 25, // Example progress
+    syllabus: [
+      {
+        week: 1,
+        topic: 'Introduction to Digital Marketing',
+        content: 'Overview of digital marketing, tools, and strategies.'
+      },
+      {
+        week: 2,
+        topic: 'SEO Basics',
+        content: 'Learning the basics of search engine optimization.'
+      },
+      // Additional weeks and topics...
+    ],
+    students: [
+      {
+        id: 113,
+        name: 'Mia Young',
+        email: 'mia@example.com',
+      },
+      {
+        id: 114,
+        name: 'Noah King',
+        email: 'noah@example.com',
+      },
+      // Additional enrolled students...
+    ]
+  },
+  {
+    id: 16,
+    Course: "Project Management",
+    Instructor: "Ava Thompson",
+    Description: "Master the art of project management with this course.",
+    EnrollmentStatus: "In Progress",
+    Duration: "3 months",
+    Schedule: "Mon, Wed - 11:00 AM to 1:00 PM",
+    Location: "Online",
+    Prerequisites: "None",
+    Rating: "4.6",
+    Skills: "Project Management, Agile, Scrum, Risk Management",
+    progress: 25, // Example progress
+    syllabus: [
+      {
+        week: 1,
+        topic: 'Introduction to Digital Marketing',
+        content: 'Overview of digital marketing, tools, and strategies.'
+      },
+      {
+        week: 2,
+        topic: 'SEO Basics',
+        content: 'Learning the basics of search engine optimization.'
+      },
+      // Additional weeks and topics...
+    ],
+    students: [
+      {
+        id: 113,
+        name: 'Mia Young',
+        email: 'mia@example.com',
+      },
+      {
+        id: 114,
+        name: 'Noah King',
+        email: 'noah@example.com',
+      },
+      // Additional enrolled students...
+    ]
+  },
+  {
+    id: 17,
+    Course: "Project Management",
+    Instructor: "Ava Thompson",
+    Description: "Master the art of project management with this course.",
+    EnrollmentStatus: "In Progress",
+    Duration: "3 months",
+    Schedule: "Mon, Wed - 11:00 AM to 1:00 PM",
+    Location: "Online",
+    Prerequisites: "None",
+    Rating: "4.6",
+    Skills: "Project Management, Agile, Scrum, Risk Management",
+    progress: 25, // Example progress
+    syllabus: [
+      {
+        week: 1,
+        topic: 'Introduction to Digital Marketing',
+        content: 'Overview of digital marketing, tools, and strategies.'
+      },
+      {
+        week: 2,
+        topic: 'SEO Basics',
+        content: 'Learning the basics of search engine optimization.'
+      },
+      // Additional weeks and topics...
+    ],
+    students: [
+      {
+        id: 113,
+        name: 'Mia Young',
+        email: 'mia@example.com',
+      },
+      {
+        id: 114,
+        name: 'Noah King',
+        email: 'noah@example.com',
+      },
+      // Additional enrolled students...
+    ]
+  },
+  {
+    id: 18,
+    Course: "Project Management",
+    Instructor: "Ava Thompson",
+    Description: "Master the art of project management with this course.",
+    EnrollmentStatus: "In Progress",
+    Duration: "3 months",
+    Schedule: "Mon, Wed - 11:00 AM to 1:00 PM",
+    Location: "Online",
+    Prerequisites: "None",
+    Rating: "4.6",
+    Skills: "Project Management, Agile, Scrum, Risk Management",
+    progress: 25, // Example progress
+    syllabus: [
+      {
+        week: 1,
+        topic: 'Introduction to Digital Marketing',
+        content: 'Overview of digital marketing, tools, and strategies.'
+      },
+      {
+        week: 2,
+        topic: 'SEO Basics',
+        content: 'Learning the basics of search engine optimization.'
+      },
+      // Additional weeks and topics...
+    ],
+    students: [
+      {
+        id: 113,
+        name: 'Mia Young',
+        email: 'mia@example.com',
+      },
+      {
+        id: 114,
+        name: 'Noah King',
+        email: 'noah@example.com',
+      },
+      // Additional enrolled students...
+    ]
+  },
+  {
+    id: 19,
+    Course: "Project Management",
+    Instructor: "Ava Thompson",
+    Description: "Master the art of project management with this course.",
+    EnrollmentStatus: "In Progress",
+    Duration: "3 months",
+    Schedule: "Mon, Wed - 11:00 AM to 1:00 PM",
+    Location: "Online",
+    Prerequisites: "None",
+    Rating: "4.6",
+    Skills: "Project Management, Agile, Scrum, Risk Management",
+    progress: 25, // Example progress
     syllabus: [
       {
         week: 1,
